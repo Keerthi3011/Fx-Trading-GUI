@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/home">HOME</a>
+      </li>
+    </ul>
+    <div class="mx-auto">
+      <a class="navbar-brand">Welcome to Fx Trading</a>
+    </div>
+    <ul class="navbar-nav justify-content-end">
+      <li class="nav-item active">
+        <a class="nav-link" href="/exit">EXIT</a>
+      </li>
+    </ul>
+  </nav>
+
+  <table class="table table-bordered table-hover" style="text-align: center;">
+    <thead>
+        <th>Trade No</th>
+        <th>Customer Name</th>
+        <th>Currency Pair</th>
+        <th>Amount</th>
+        <th>Rate</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of Details; index as i">
+            <td>{{item.tradeNo}}</td>
+            <td>{{item.customerName}}</td>
+            <td>{{item.currencyPair}}</td>
+            <td>{{item.amount}}</td>
+            <td>{{item.rate}}</td>
+        </tr>
+    </tbody>
+  </table>
