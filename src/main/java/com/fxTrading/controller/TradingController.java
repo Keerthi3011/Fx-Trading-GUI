@@ -35,11 +35,4 @@ public class TradingController
 		return service.printing();
 		
 	}
-	
-	@CrossOrigin
-	@GetMapping ("exit")
-	public String exit(@RequestBody String yOrN)
-	{
-		return service.exit(yOrN);
-	}
 }

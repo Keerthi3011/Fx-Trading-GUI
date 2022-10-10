@@ -32,11 +32,4 @@ public class TradingService
 	{
 		return repository.findAll();
 	}
-
-	public String exit(String yOrN) {
-		if(yOrN .equalsIgnoreCase("yes"))
-			return "Have a nice day";
-		return null;
-	}
-
 }
