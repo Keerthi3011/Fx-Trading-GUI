@@ -1,0 +1,24 @@
+div{
+    width: 1000px;
+    height :500px;
+    text-align: center;
+    margin-top: 200px;
+}
+h1{
+    text-align:center; 
+    color: rgb(133, 220, 232);
+    margin-top: 30px;
+}
+form{
+    background-color: rgba(34, 34, 154, 0.227);
+    width: 650px;
+    height :350px;
+    border-radius: 20px;
+    margin-left: 20%;
+}
+button{
+    font-size: large;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+}
